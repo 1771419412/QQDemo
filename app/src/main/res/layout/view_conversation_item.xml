@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@id/avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/avatar1"/>
+
+    <TextView
+        android:id="@id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/user_name"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/avatar"/>
+
+    <TextView
+        android:id="@id/last_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/last_message"
+        android:text="晃晃"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_alignBottom="@id/avatar"/>
+
+    <TextView
+        android:id="@id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/last_message"
+        android:text="13:44"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+
+        />
+    <TextView
+        android:id="@id/unread_count"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/unread_count_bg"
+        android:text="5"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_alignBottom="@id/avatar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="qq_blue">#00acff</color>
+    <color name="qq_blue_drak">#00a1db</color>
+    <color name="qq_red">#FF0000</color>
+    <color name="qq_red_drak">#CD0000</color>
+    <color name="colorDivider">#e8e8e8</color>
+    <color name="disable">#559c9c9c</color>
+    <color name="last_message">#9c9c9c</color>
+    <color name="slide_bar_text_color">#8c8c8c</color>
+    <color name="transparent">#50000000</color>
+
+</resources>
